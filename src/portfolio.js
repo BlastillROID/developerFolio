@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  username: "Mounir Missaoui",
+  title: "Hi all, I'm Mounir",
+  subTitle: emoji("A passionate DevOps Engineer 🚀 having an experience of building, Monitoring Cloud Infrastructure and CI/CD pipelines on AWS, MS Azure, IBM Cloud and many other providers."),
   resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
 };
 
@@ -17,12 +17,11 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
+  github: "https://github.com/blastillroid",
+  linkedin: "https://www.linkedin.com/in/mounir-missaoui/",
+  gmail: "mounir.missaoui@esprit.tn",
+  gitlab: "https://gitlab.com/M.missaoui",
+  medium: "https://medium.com/@LordGoats",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
 };
@@ -31,11 +30,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY DEVOPS & CLOUD ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Install highly resilient and reactive monitoring infrastructure for almost any dev stack"),
+    emoji("⚡ Infrastructute provisioning and configuration automation using Terraform and Ansible"),
+    emoji("⚡ Architect and Implement infrastructures on Cloud providers such as Azure / AWS / OVH / IBM Cloud"),
+    emoji("⚡ Insfrastructure and application monitoring with ELK / Prometheus / NetData"),
+    emoji("⚡ Build optimized CICD pipelines on GitlabCI / CircleCI / TravisCI / Jinkens"),
+    emoji("⚡ Manage and organize Git workflow and branching strategies"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -43,39 +45,39 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "IBM Cloud",
+      fontAwesomeClassname: "fa fa-server"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Cloudflare",
+      fontAwesomeClassname: "fa fa-cloudflare"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fa fa-dharmachakra"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Gitlab",
+      fontAwesomeClassname: "fab fa-gitlab"
     },
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "sql-database",
+      skillName: "databases",
       fontAwesomeClassname: "fas fa-database"
     },
     {
@@ -83,8 +85,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "MS Azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
     {
       skillName: "python",
@@ -93,7 +95,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fab fa-linux"
+    },
   ]
 };
 
@@ -132,17 +138,21 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
+      Stack: "Cloud",  //Insert stack or technology you have experience in
       progressPercentage: "90%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "GitOps",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "SysOps",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Backend",
       progressPercentage: "60%"
-    }
+    },
   ]
 };
 
@@ -185,7 +195,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: "saadpasta", // Change to your github username to view your profile in Contact Section.
+  githubUserName: "blastillroid", // Change to your github username to view your profile in Contact Section.
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false
 };
 
@@ -302,7 +312,7 @@ const contactInfo = {
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : ""//"twitter"//Replace "twitter" with your twitter username without @
 
 };
 export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};

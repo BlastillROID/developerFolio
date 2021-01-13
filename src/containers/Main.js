@@ -24,7 +24,7 @@ export default class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      isDark: false,
+      isDark: true,
     };
   }
 
@@ -38,9 +38,9 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div className={this.state.isDark ? "dark-mode" : null}>
+      <div className={"dark-mode"}>
         <StyleProvider
-          value={{ isDark: this.state.isDark, changeTheme: this.changeTheme }}
+          value={{ isDark: true, changeTheme: this.changeTheme }}
         >
           <Header />
           <Greeting />
@@ -50,11 +50,11 @@ export default class Main extends Component {
           <WorkExperience />
           <Projects />
           <StartupProject />
-          <Achievement />
-          <Blogs />
-          <Talks />
-          <Twitter />
-          <Podcast />
+          {/* <Achievement /> */}
+          {/* <Blogs /> */}
+          {/* <Talks /> */}
+          {/* <Twitter /> */}
+          {/* <Podcast /> */}
           <Profile />
           <Footer />
           <Top />
