@@ -8,9 +8,9 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Mounir Missaoui",
-  title: "Hi all, I'm Mounir",
+  title: "Hi Y'all, I'm Mounir",
   subTitle: emoji("A passionate DevOps Engineer 🚀 having an experience of building, Monitoring Cloud Infrastructure and CI/CD pipelines on AWS, MS Azure, IBM Cloud and many other providers."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/12hf72wOQ9hUF2IIyQl5NtABxMgNmOF8v/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -22,7 +22,7 @@ const socialMediaLinks = {
   gmail: "mounir.missaoui@esprit.tn",
   gitlab: "https://gitlab.com/M.missaoui",
   medium: "https://medium.com/@LordGoats",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -109,26 +109,12 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "ESPRIT Tunisia",
+      logo: require("./assets/images/esprit.png"),
+      subHeader: "BE in Computer Software Engineering",
+      duration: "September 2014 - June 2019",
+      desc: "FUTURA entrepreneurial club alumni and former Internal Affairs Moderator (IAM)",
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
-    }
   ]
 }
 
@@ -163,29 +149,32 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "DevOps Lead Engineer",
+      company: "SlashUp Studio",
+      companylogo: require("./assets/images/up.png"),
+      date: "Nov 2020 – Present",
+      desc: "Filling the position of a Cloud and DevSecOps lead holding and managing the DevOps process design and implementation ",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        // "Cloud",
+        // "GitOps",
+        // "DevOps",
+        // "Security",
+        // "Quality Assessment"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Cloud and DevOps Engineer / Instructor",
+      company: "FivePoints The Talent Pool",
+      companylogo: require("./assets/images/fivep.jpg"),
+      date: "Jan 2019 – Nov 2020",
+      desc: "Holding the position of a Cloud and DevOps Instructor ,coaching and managing a team developers who seek to transition from Dev Portfolios to DevOps administration"
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "BlockChain and Cloud Architect",
+      company: "Inscrypt",
+      companylogo: require("./assets/images/inscrypt.jpeg"),
+      date: "Sep 2018 – Dec 2018",
+      desc: "Design and Implementation of a Blockchain private ledger Ecosystem"
     },
   ]
 };
@@ -206,14 +195,12 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/yallab.png"),
+      link: "https://yallab.fivepoints.fr/"
     },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
-    }
+    
   ]
 };
 
